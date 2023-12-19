@@ -9,7 +9,6 @@ public class MedicamentService {
     public void saveMedicament(MedicamentDTO medicamentDTO){
         String name = medicamentDTO.getName();
         String producer = medicamentDTO.getProducer();
-
         System.out.println("Medicament has been saved... ");
     }
 }
